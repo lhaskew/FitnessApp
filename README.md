@@ -1,38 +1,29 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I created an application that tracks a user's inputted calories versus workout duration. It stores this data and will show this data upon request. It will calculate reports based off of this data, and it treats the data as entries to display.
 
-{Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
+My goal is to be able to help people keep track of their fitness goals and maintain daily health improvements.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video] https://youtu.be/87vE5TDEDCM
 
 # Cloud Database
+The cloud database I am using is Firebase by Google.
 
-{Describe the cloud database you are using.}
-
-{Describe the structure of the database that you created.}
+The data is stored in Firebase and runs by user authenticity and user input.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+The tools used to develop this was VS Code and Firebase.
 
-{Describe the programming language that you used and any libraries.}
+I used the Flask library, python, JSON, html and css.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Geeks for Geeks] https://www.geeksforgeeks.org/firebase-introduction/
+- [Data Roots IO] https://dataroots.io/blog/best-practices-for-choosing-a-database-on-google-cloud-platform-gcp
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Add continuing html pages for after a user submits data.
+- Include a page that shows a chart where user can click and drag date ranges to create reports.
+- Allow the user to see all inputted data in a diary/dictionary format with data association.
